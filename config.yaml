@@ -1,0 +1,39 @@
+# 球队/赛事订阅配置
+
+soccer_teams:
+  - name: Liverpool
+    espn_team_id: 364
+    sport: Soccer
+    leagues:
+      - eng.1
+      - uefa.champions
+      - eng.fa
+      - eng.league_cup
+
+nba_teams:
+  - name: Philadelphia 76ers
+    espn_team_id: phi
+    sport: Basketball
+
+motorsports:
+  - name: Formula 1
+    provider: jolpica_f1
+    sport: Motorsport
+    include_qualifying: true
+    include_sprint: true
+
+manual_sources:
+  - name: 深圳新鹏城
+    league: 中超
+    home_only: true
+  - name: 深圳青年人
+    league: 中甲
+    home_only: true
+
+days_ahead: 180
+timezone: Asia/Shanghai
+output_ics: games.ics
+min_events_threshold: 20
+
+gist_id: d94f811403d8b8bfd0f29ffabaeac9e3
+gist_user: deungjaho

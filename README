@@ -1,0 +1,53 @@
+体育赛事日历同步工具
+====================
+
+聚合多联赛体育赛程并导出为 RFC 5545 iCalendar (.ics) 日历文件。
+日历托管于 GitHub Gist，通过 GitHub Actions 自动更新，供 Apple 日历等客户端订阅。
+
+
+功能特性
+--------
+
+* 足球：聚合英超、欧冠、足总杯、联赛杯赛程
+* 篮球：覆盖 NBA 季前赛与常规赛
+* 赛车：覆盖 F1 排位赛、冲刺赛与正赛
+* 国内联赛：支持中超、中甲及足协杯，支持单场指定场馆
+* 熔断机制：拉取数量低于阈值时拒绝覆写 Gist
+* 自动同步：GitHub Actions 每日定时运行 (00:00 / 12:00 UTC)
+
+
+订阅地址
+--------
+
+Webcal 协议地址:
+  webcal://gist.githubusercontent.com/deungjaho/d94f811403d8b8bfd0f29ffabaeac9e3/raw/games.ics
+
+HTTPS 地址:
+  https://gist.githubusercontent.com/deungjaho/d94f811403d8b8bfd0f29ffabaeac9e3/raw/games.ics
+
+
+配置文件
+--------
+
+* config.yaml: 订阅配置与参数
+* manual_events.yaml: 国内赛事数据源
+
+
+本地使用
+--------
+
+$ pip install pyyaml
+$ python3 sync_calendar.py --status   # 查看状态
+$ python3 sync_calendar.py --list     # 列出赛程
+$ python3 sync_calendar.py --no-push  # 仅生成本地文件
+$ python3 sync_calendar.py            # 同步并推送到 Gist
+
+
+部署流程
+--------
+
+1. Fork 本仓库
+2. 在 https://gist.github.com 创建 games.ics 的公开 Gist
+3. 在 GitHub 账号生成带有 gist 权限的 Personal Access Token (PAT)
+4. 在仓库 Settings -> Secrets 中添加 GIST_PAT
+5. 修改 config.yaml 中的订阅与 Gist 信息

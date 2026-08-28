@@ -1,0 +1,44 @@
+深圳新鹏城:
+  league: 中超
+  home_venue: 深圳体育中心
+  events:
+    - {date: "2026-02-12 16:00", home: 深圳新鹏城, away: 陕西联合,   league: 足球友谊赛}
+    - {date: "2026-02-13 18:30", home: 深圳新鹏城, away: 坡州市民,   league: 足球友谊赛}
+    - {date: "2026-02-26 15:00", home: 深圳新鹏城, away: 大连鲲城,   league: 足球友谊赛}
+    - {date: "2026-03-14 20:00", home: 深圳新鹏城, away: 天津津门虎, league: 中超}
+    - {date: "2026-04-05 19:00", home: 深圳新鹏城, away: 武汉三镇,   league: 中超}
+    - {date: "2026-04-12 20:00", home: 深圳新鹏城, away: 云南玉昆,   league: 中超}
+    - {date: "2026-04-21 19:00", home: 深圳新鹏城, away: 北京国安,   league: 中超}
+    - {date: "2026-04-26 19:00", home: 深圳新鹏城, away: 辽宁铁人,   league: 中超}
+    - {date: "2026-05-10 18:00", home: 深圳新鹏城, away: 山东泰山,   league: 中超}
+    - {date: "2026-05-19 19:35", home: 深圳新鹏城, away: 大连英博,   league: 中超}
+    - {date: "2026-05-30 20:00", home: 深圳新鹏城, away: 青岛海牛,   league: 中超}
+    - {date: "2026-06-19 19:00", home: 深圳新鹏城, away: 深圳青年人, league: 足协杯}
+    - {date: "2026-06-27 19:35", home: 深圳新鹏城, away: 成都蓉城,   league: 中超}
+    - {date: "2026-07-11 19:35", home: 深圳新鹏城, away: 青岛西海岸, league: 中超}
+    - {date: "2026-08-01 20:00", home: 深圳新鹏城, away: 重庆铜梁龙, league: 中超}
+    - {date: "2026-08-22 19:35", home: 深圳新鹏城, away: 浙江,       league: 中超}
+    - {date: "2026-08-28 20:00", home: 深圳新鹏城, away: 上海海港,   league: 中超}
+    - {date: "2026-10-09 19:35", home: 深圳新鹏城, away: 河南,       league: 中超}
+    - {date: "2026-10-24 15:30", home: 深圳新鹏城, away: 上海申花,   league: 中超}
+
+深圳青年人:
+  league: 中甲
+  home_venue: 深圳青少年足球训练基地
+  events:
+    - {date: "2026-03-15 16:00", home: 深圳青年人, away: 陕西联合,   league: 中甲, venue: 宝安体育中心}
+    - {date: "2026-04-04 16:00", home: 深圳青年人, away: 延边龙鼎,   league: 中甲, venue: 宝安体育中心}
+    - {date: "2026-04-25 16:00", home: 深圳青年人, away: 佛山南狮,   league: 中甲, venue: 宝安体育中心}
+    - {date: "2026-05-10 19:00", home: 深圳青年人, away: 石家庄功夫, league: 中甲, venue: 宝安体育中心}
+    - {date: "2026-06-14 19:00", home: 深圳青年人, away: 广西恒宸,   league: 中甲, venue: 宝安体育中心}
+    - {date: "2026-06-19 19:00", home: 深圳青年人, away: 深圳新鹏城, league: 足协杯, venue: 宝安体育中心}
+    - {date: "2026-07-04 19:00", home: 深圳青年人, away: 南通支云,   league: 中甲, venue: 宝安体育中心}
+    - {date: "2026-07-12 19:00", home: 深圳青年人, away: 定南赣联,   league: 中甲, venue: 宝安体育中心}
+    - {date: "2026-08-02 19:00", home: 深圳青年人, away: 无锡吴钩,   league: 中甲, venue: 宝安体育中心}
+    - {date: "2026-08-16 19:00", home: 深圳青年人, away: 宁波,       league: 中甲, venue: 宝安体育中心}
+    - {date: "2026-08-23 19:00", home: 深圳青年人, away: 南京城市,   league: 中甲, venue: 宝安体育中心}
+    - {date: "2026-09-06 19:00", home: 深圳青年人, away: 梅州客家,   league: 中甲, venue: 深圳青少年足球训练基地}
+    - {date: "2026-09-19 19:00", home: 深圳青年人, away: 长春亚泰,   league: 中甲, venue: 深圳青少年足球训练基地}
+    - {date: "2026-10-07 19:00", home: 深圳青年人, away: 广东广州豹, league: 中甲, venue: 深圳青少年足球训练基地}
+    - {date: "2026-10-17 19:00", home: 深圳青年人, away: 大连鲲城,   league: 中甲, venue: 深圳青少年足球训练基地}
+    - {date: "2026-11-07 14:30", home: 深圳青年人, away: 苏州东吴,   league: 中甲, venue: 深圳青少年足球训练基地}
